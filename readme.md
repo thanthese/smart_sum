@@ -23,5 +23,7 @@ makes that as easy as selecting a range and `:!smart_sum`. I use the mapping
 
 I did this, but you can do whatever floats your boat.
 
+    $ cd
+    $ git clone https://github.com/thanthese/smart_sum
     $ cd /usr/bin
     $ ln -s ~/smart_sum/smart_sum.py smart_sum
