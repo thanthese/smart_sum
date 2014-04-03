@@ -14,7 +14,10 @@ def main():
         print "STDIN is emtpy"
         return
 
-    print smart_sum(str(sys.stdin.read()))
+    try:
+        print smart_sum(str(sys.stdin.read()))
+    except decimal.InvalidOperation as e:
+        print e.message
 
 
 if __name__ == "__main__":
